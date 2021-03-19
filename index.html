@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/weather.css">
+    <title>Welcome</title>
+</head>
+<body>
+    <div class="home">
+        <div class="weather-app">
+            <input type="text" class="search-box" placeholder="Search for a city">
+            <div class="city"></div>
+            <div class="current">
+                <div class="temp"> </div>
+                <div class="weather"> </div>
+                <div class="hi-low"> </div>
+            </div>
+        </div>
+        <date id="date"></date>
+        <time id="time"></time>
+        <h1>
+            <span id="greeting"></span>
+            <span id="name" contenteditable="true"></span>
+        </h1>
+        <h2>What is your focus today</h2>
+        <h2>
+            <span id="focus" contenteditable="true"></span>
+        </h2>
+        <div class="buttons">
+            <form action="todo.html">
+                <button class="todo-btn">Todo List</button>
+            </form>
+            <form action="game.html">
+                <button class="game-btn">Game</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
